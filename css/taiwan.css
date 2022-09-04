@@ -6,7 +6,6 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
-    /* min-height: 3000vh; */
 }
 
 .displayMob {
@@ -141,6 +140,8 @@ body {
 
 .sections {
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
@@ -153,15 +154,7 @@ body {
 
 .fullwidthwithBG{
     width: 100%; position: relative;
-    min-height: 500px;
-}
-
-.fullwidthwithBG img{
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+    min-height: 600px;
 }
 
 .fullwidthBGContainer{
@@ -171,6 +164,41 @@ body {
     padding: 50px;
 }
 
+.us-rival-leaders img{
+    align-self: center; width: 100%;
+}
+
+
+.BG {
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.BG.secImg1{
+    background-image: url("../assets/img/story/theflight.jpg");
+    background-position: center;
+}
+.BG.secImg2{
+    background-image: url("../assets/img/story/army.jpg");
+    background-position: center;
+}
+
+.leaders img{
+    margin-bottom: 30px;
+}
+
+.sections2 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    width: 100%;
+    max-width: 650px; align-items: center;
+    justify-content: center;    margin: 0 auto;
+}
 
 
 
@@ -186,6 +214,9 @@ body {
         max-width: 300px;
         width: 100%;
         margin: 0 auto;
+    }
+    .tv9-interactives {
+        overflow: hidden;
     }
 }
 
@@ -205,17 +236,26 @@ body {
         color: #fff;
     }
     
+    .twoCols p:nth-child(1){
+        margin-top: 20px;
+        width: 200px;
+    }
     .twoCols p:nth-child(2){
-        margin-top: 50px;
+        margin-top: 70px;
+        width: 300px;
     }
 
     .mapsection {
         display: flex;
         justify-content: flex-end;
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     #themarshall, #spyMaster {
         display: grid;
+        justify-content: center;
     }
     #themarshall{
         grid-template-columns: 40% 40%;
@@ -282,12 +322,12 @@ body {
 
     #aboutLeaders {
         display: flex;
-    column-gap: 30px;
-    text-align: center;
-    margin: 50px auto;
-    width: 100%;
-    max-width: 650px;
-    justify-content: space-between;
+        column-gap: 30px;
+        text-align: center;
+        margin: 50px auto;
+        width: 100%;
+        max-width: 650px;
+        justify-content: space-between;
     }
     .leaders:nth-child(1) .leaders__name{
         left: -25px;
@@ -303,62 +343,47 @@ body {
     .leaders .leaders__name{
         top: 150px;
     }
-    
+    #introUSRivalLeaders{
+        width: 100%; max-width: 500px; margin: 50px auto;
+    }
+    #introUSRivalLeaders p{
+        margin-bottom: 30px ;
+    }
+    .us-rival-leaders{
+        display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    }
+    .us-rival-leaders img{
+        align-self: center;
+    }
+    .us-rival-leaders img:nth-child(1){
+        width: 300px;
+    }
+    .us-rival-leaders img:nth-child(2){
+        width: 340px;
+    }
+    .david-barrette{
+        width: 80%;
+    }
 
+    #dixieMission {
+        grid-template-columns: 40% 60%;
+    }
+    #david-barrette {
+        grid-template-columns: 40% 60%;
+    }
+    #john-service {
+        grid-template-columns: 40% 60%;
+    }
+    #david-barrette img{
+        width: 80%; text-align: center;
+    }
+    #telegram {
+        grid-template-columns: 30% 70%;
+    }
+    
 }
 @media (min-width: 1200px){
 
 }
-/* #cover .cover-content{
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.section {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.cover-img{
-    width: 100%;
-}
-
-
-
-.cover-intro h1{
-    color: #ff0024;
-    font-size: 38px;
-    line-height: 42px;
-    margin-bottom: 10px;
-}
-.cover-intro p{
-    color: #ffe597;
-    font-size:  0.81rem;
-    line-height: 1rem;
-    font-weight: 600;
-    width: 75%;
-    margin-left: 33px;
-}
-
-#interactive-meta {
-    text-align: center;
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-}
-#interactive-meta .authorname, #interactive-meta .publishdate{
-    font-size: 0.75rem;
-    color: #fff;
-    line-height: 0.75rem;
-}
-#interactive-meta .authorname{ font-weight: 600; margin: 40px 0 10px 0;}
-#interactive-meta .publishdate{ margin-bottom: 40px;}
-#interactive-meta .leadtext{
-    font-size: 0.81rem;
-    line-height: 1rem;
-    color: #ffe597;
-    font-weight: 500;
-    letter-spacing: 0.001rem;
-} */
