@@ -182,6 +182,7 @@ body {
     background-image: url("../assets/img/story/theflight.jpg");
     background-position: center;
 }
+
 .BG.secImg2{
     background-image: url("../assets/img/story/army.jpg");
     background-position: center;
@@ -200,13 +201,39 @@ body {
     justify-content: center;    margin: 0 auto;
 }
 
+.fullwidthwithBG .bodycopy { color: #fff;}
 
+.center-box{
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 80px auto;
+}
+.center-box img{
+    margin: 0 auto 30px;
+    width: 100%;
+}
 
 @media (min-width: 1px) and (max-width: 767px) {
     .sections {
         width: 100%;
         max-width: 300px;
         margin: 0 auto;
+    }
+
+    .fullwidthwithBG {
+        min-height: 400px;
+    }
+
+    .BG.secImg1{
+        background-image: url("../assets/img/story/theflight.jpg");
+        background-position: left bottom;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
+
+    .sections2 {
+        grid-template-columns: 100%;
     }
 
     .mapsection {
@@ -218,6 +245,32 @@ body {
     .tv9-interactives {
         overflow: hidden;
     }
+
+    
+    /* Change order in Mobile */
+    #dixieMission .story-points:nth-child(1), 
+    #john-service  .story-points:nth-child(1),
+    #patrick-hurley  .story-points:nth-child(1),
+    #telegram  .story-points:nth-child(1) {
+        order: 2;
+    }
+
+    #dixieMission .story-points img, #dixieMission .story-points,
+    #david-barrette .story-points img, #david-barrette .story-points,
+    #john-service .story-points img, #john-service .story-points,
+    #telegram .story-points img, #telegram .story-points,
+    #chuday .story-points img, #chuday .story-points,
+    #patrick-hurley .story-points img, #patrick-hurley .story-points,
+    #surrender .story-points img, #surrender .story-points,
+    #center-box .bodycopy
+    {
+        margin-bottom: 0;
+    }
+
+    .center-box { margin: 20px auto;}
+
+    .mt30{ margin-top: 30px !important;}
+    
 }
 
 
@@ -320,6 +373,10 @@ body {
         margin-top: 20px;
     }
 
+    .center-box p {
+        margin-bottom: 30px;
+    }
+
     #aboutLeaders {
         display: flex;
         column-gap: 30px;
@@ -381,6 +438,9 @@ body {
     }
     #telegram {
         grid-template-columns: 30% 70%;
+    }
+    #surrender {
+        grid-template-columns: 70% 30%;
     }
     
 }
