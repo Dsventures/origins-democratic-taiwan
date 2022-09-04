@@ -1,0 +1,364 @@
+body {
+    background-color: #ff0024;
+}
+
+.tv9-interactives {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* min-height: 3000vh; */
+}
+
+.displayMob {
+    display: block;
+}
+.displayDesk {
+    display: none;
+}
+
+#cover{
+    background-image: url(../assets/img/bg.png);
+    width: 100%;
+    margin: 0 auto 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    min-height: 100vh;
+}
+
+.cover-intro{
+    display: flex;
+    flex-direction: column;
+}
+.cover-intro h1, .cover-intro p{
+    color: #fff;
+}
+
+.cover-intro h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-top: 50px;
+}
+.cover-intro p {
+    order: 3;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cover-content .authorname,
+.cover-content .publishdate {
+    color: #fff;
+    text-align: center;
+}
+
+.cover-content .authorname {
+    font-size: 16px;
+    font-weight: 600;
+}
+.cover-content .publishdate {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.bodycopy{
+    color: #ffe597;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.leadcopy{
+    color: #ffe597;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.leaders{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.leaders:nth-child(1) .leaders__name{
+    left: -24px;
+}
+.leaders:nth-child(2) .leaders__name{
+    right: -8px;
+}
+
+
+.leaders .leaders__name{
+    position: absolute;
+    top: 170px;
+    width: 170px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.leaders .leaders__name span{
+    font-weight: bold; display: block;
+}
+
+.mapsection{
+    position: relative;
+}
+
+#manchu-map{
+    width: 150%;
+    margin-left: -20px;
+    transform: scale(1.5);
+    margin-top: 100px;
+}
+
+
+
+
+.mapsection__content {
+    width: 100%;
+    text-align: center;
+    max-width: 300px;
+    margin: -50% 0 0 0;
+}
+.mapsection__content p{
+    margin: 50px 0;
+}
+
+#mapsections{
+    position: relative;
+}
+
+/* #manchu-map.is-active{
+    position: fixed;
+} */
+
+.sections {
+    width: 100%;
+}
+
+
+.story-points {
+    margin: 30px 0; text-align: center;
+}
+.story-points img,.sections img, .story-points p, .sections p{
+    margin-bottom: 15px;
+}
+
+.fullwidthwithBG{
+    width: 100%; position: relative;
+    min-height: 500px;
+}
+
+.fullwidthwithBG img{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.fullwidthBGContainer{
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 50px;
+}
+
+
+
+
+@media (min-width: 1px) and (max-width: 767px) {
+    .sections {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .mapsection {
+        justify-content: center;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 768px){
+    
+}
+
+@media (min-width: 960px){
+    .twoCols{
+        display: flex;
+        column-gap: 250px;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .twoCols p{
+        color: #fff;
+    }
+    
+    .twoCols p:nth-child(2){
+        margin-top: 50px;
+    }
+
+    .mapsection {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #themarshall, #spyMaster {
+        display: grid;
+    }
+    #themarshall{
+        grid-template-columns: 40% 40%;
+        column-gap: 10%;
+    }
+    #spyMaster {
+        grid-template-columns: 40% 40%;
+        column-gap: 10%;
+        align-items: center;
+    }
+
+    #themarshall .story-points:nth-child(2){
+        margin-top: 200px;
+    }
+   
+    #manchu-map{
+        width: 100%;
+        margin-left: -100px;
+        transform: scale(1.2);
+        margin-top: 100px;
+    }
+    .displayMob { display: none; }
+    .displayDesk { display: block; }
+    .tv9-interactives { width: 100%; max-width: 960px; margin: 0 auto;}
+
+    .leadcopy{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cover-intro {
+        position: absolute;
+        top: 260px;
+        width: 360px;
+        margin-left: 50px;
+    }
+    .cover-intro h1{
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin-top: 15px;
+    }
+    .cover-intro p {
+        order: 3;
+        font-size: 11px;
+        line-height: 14px;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #cover{
+        position: relative;
+    }
+    #cover .cover-content{
+        width: 70%;
+        background-position: center -20px;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+    #cover .cover-content object{
+        margin-top: 20px;
+    }
+
+    #aboutLeaders {
+        display: flex;
+    column-gap: 30px;
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 650px;
+    justify-content: space-between;
+    }
+    .leaders:nth-child(1) .leaders__name{
+        left: -25px;
+    }
+    .leaders:nth-child(2) .leaders__name{
+        right: -21px;
+    }
+
+    .leaders{
+        width: 300px;
+    }
+
+    .leaders .leaders__name{
+        top: 150px;
+    }
+    
+
+}
+@media (min-width: 1200px){
+
+}
+/* #cover .cover-content{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cover-img{
+    width: 100%;
+}
+
+
+
+.cover-intro h1{
+    color: #ff0024;
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+.cover-intro p{
+    color: #ffe597;
+    font-size:  0.81rem;
+    line-height: 1rem;
+    font-weight: 600;
+    width: 75%;
+    margin-left: 33px;
+}
+
+#interactive-meta {
+    text-align: center;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+}
+#interactive-meta .authorname, #interactive-meta .publishdate{
+    font-size: 0.75rem;
+    color: #fff;
+    line-height: 0.75rem;
+}
+#interactive-meta .authorname{ font-weight: 600; margin: 40px 0 10px 0;}
+#interactive-meta .publishdate{ margin-bottom: 40px;}
+#interactive-meta .leadtext{
+    font-size: 0.81rem;
+    line-height: 1rem;
+    color: #ffe597;
+    font-weight: 500;
+    letter-spacing: 0.001rem;
+} */
