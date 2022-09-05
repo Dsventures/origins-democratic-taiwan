@@ -471,7 +471,7 @@
 	</clipPath>
 	<g id="D0o2mV.tif" style="clip-path:url(#SVGID_00000160898458997456073440000017695099098954223010_);">
 		
-			<image style="overflow:visible;" width="456" height="461" id="Layer_0_00000063629918511731098920000003341769415698409604_" xlink:href="21D4E944.png"  transform="matrix(0.6329 0 0 0.6329 422.7354 640.6277)">
+			<image  loading="lazy" style="overflow:visible;" width="456" height="461" id="Layer_0_00000063629918511731098920000003341769415698409604_" xlink:href="21D4E944.png"  transform="matrix(0.6329 0 0 0.6329 422.7354 640.6277)">
 		</image>
 	</g>
 </g>

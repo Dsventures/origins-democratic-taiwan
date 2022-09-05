@@ -479,12 +479,12 @@
 		
 			<g id="D0o2mV.tif_00000057132943982407190930000009374603147251684015_" style="clip-path:url(#SVGID_00000050648671874166013410000017002169936586357917_);">
 			
-				<image style="overflow:visible;opacity:0.75;" class="leaders"  width="258" height="261" xlink:href="../img/2EAB054F.png"  transform="matrix(1 0 0 1 -14 19)">
+				<image loading="lazy" style="overflow:visible;opacity:0.75;" class="leaders"  width="258" height="261" xlink:href="../img/2EAB054F.png"  transform="matrix(1 0 0 1 -14 19)">
 			</image>
 			<g>
 				<g>
 					
-						<image style="overflow:visible;" width="456" height="461" id="Layer_0_00000168802172784128754430000009085058630876900793_" xlink:href="../img/2EAB054A.png" class="leaders" transform="matrix(0.4987 0 0 0.4987 -5.8726 27.3597)">
+						<image  loading="lazy" style="overflow:visible;" width="456" height="461" id="Layer_0_00000168802172784128754430000009085058630876900793_" xlink:href="../img/2EAB054A.png" class="leaders" transform="matrix(0.4987 0 0 0.4987 -5.8726 27.3597)">
 					</image>
 				</g>
 			</g>
@@ -502,7 +502,7 @@
 		
 			<g id="D0o2mV.tif_00000058547061812675386740000009880220125141590958_" style="clip-path:url(#SVGID_00000024002365525911107360000010569084847551989138_);">
 			
-				<image style="overflow:visible;" width="456" height="461" id="Layer_0_00000026882088965569780820000013345525042106776708_" 
+				<image loading="lazy" style="overflow:visible;" width="456" height="461" id="Layer_0_00000026882088965569780820000013345525042106776708_" 
 				class="leaders" xlink:href="../img/2EAB0549.png"  transform="matrix(0.4987 0 0 0.4987 -5.8726 27.3597)">
 			</image>
 		</g>
