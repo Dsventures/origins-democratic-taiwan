@@ -342,7 +342,7 @@ section {
         width: 100%;
         margin-left: -200px;
         transform: scale(1.2);
-        margin-top: 100px;
+        margin-top: 250px;
     }
     .displayMob { display: none; }
     .displayDesk { display: block; }
