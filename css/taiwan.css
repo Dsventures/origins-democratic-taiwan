@@ -223,6 +223,7 @@ section {
 }
 
 @media (min-width: 1px) and (max-width: 767px) {
+    .leadcopy, .bodycopy { font-size: 0.8rem; line-height: 1rem;}
     .sections {
         width: 100%;
         max-width: 300px;
