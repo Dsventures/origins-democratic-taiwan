@@ -224,6 +224,10 @@ section {
 
 @media (min-width: 1px) and (max-width: 767px) {
 
+    #patrick-hurley img{
+        width: 90%;
+    }
+
     .story-points img {margin: 0 auto;}
     .story-points p { padding: 0 50px;}
     
