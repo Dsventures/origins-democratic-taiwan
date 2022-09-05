@@ -230,6 +230,8 @@ section {
 
     .story-points img {margin: 0 auto;}
     .story-points p { padding: 0 50px;}
+    #themarshall .story-points p 
+    { padding: 30px 0;}
     
     .sections {
         width: 100%;
