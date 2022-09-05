@@ -258,6 +258,10 @@ section {
         background-repeat: no-repeat;
     }
 
+    .BG.secImg2{
+        background-size: cover;
+    }
+
     .sections2 {
         grid-template-columns: 100%;
     }
