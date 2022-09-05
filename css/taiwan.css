@@ -5,7 +5,12 @@ body {
 .tv9-interactives {
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0;
+}
+
+section {
+    margin: 70px auto;
+    width: 100%;
 }
 
 .displayMob {
@@ -19,9 +24,9 @@ body {
     background-image: url(../assets/img/bg.png);
     width: 100%;
     margin: 0 auto 30px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: 20% center;
     min-height: 100vh;
 }
 
@@ -40,12 +45,14 @@ body {
 }
 .cover-intro p {
     order: 3;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
 }
+
+.cover-content { padding: 0 30px;}
 
 .cover-content .authorname,
 .cover-content .publishdate {
@@ -64,16 +71,17 @@ body {
 
 .bodycopy{
     color: #ffe597;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
+    margin: 0 auto 50px;
 }
 
 .leadcopy{
     color: #ffe597;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
     margin: 0 auto;
@@ -114,7 +122,7 @@ body {
     width: 150%;
     margin-left: -20px;
     transform: scale(1.5);
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -124,7 +132,7 @@ body {
     width: 100%;
     text-align: center;
     max-width: 300px;
-    margin: -70% 0 0 0;
+    margin: -40% 0 0 0;
 }
 .mapsection__content p{
     margin: 50px 0;
@@ -149,7 +157,7 @@ body {
     margin: 30px 0; text-align: center;
 }
 .story-points img,.sections img, .story-points p, .sections p{
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .fullwidthwithBG{
@@ -218,17 +226,21 @@ body {
     .sections {
         width: 100%;
         max-width: 300px;
-        margin: 0 auto;
+        margin:100px auto;
     }
 
+    .leadcopy,
+    #aboutLeaders 
+    { padding: 0 30px;}
+
     .fullwidthwithBG {
-        min-height: 400px;
+        min-height: 500px;
     }
 
     .BG.secImg1{
-        background-image: url("../assets/img/story/theflight.jpg");
-        background-position: left bottom;
-        background-size: 200%;
+        background-image: url(../assets/img/story/theflight.jpg);
+        background-position: 30% bottom;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 

@@ -57,9 +57,9 @@ fadeInSections.forEach((fadeInSection) => {
         opacity: 0,
         scrollTrigger: {
             trigger: fadeInSection,
-            start: "top 90%",
+            start: "top 95%",
             scrub: true,
-            end: "bottom 25%",
+            end: "bottom 15%",
             markers: false,
         },
     });
@@ -73,7 +73,7 @@ fadeInRightSections.forEach((fadeInRightSection) => {
         x: 100,
         scrollTrigger: {
             trigger: fadeInRightSection,
-            start: "top 90%",
+            start: "top 95%",
             scrub: true,
             end: "bottom 25%",
             markers: false,
@@ -89,7 +89,7 @@ fadeInLeftSections.forEach((fadeInLeftSection) => {
         x: -100,
         scrollTrigger: {
             trigger: fadeInLeftSection,
-            start: "top 90%",
+            start: "top 95%",
             scrub: true,
             end: "bottom 25%",
             markers: false,
@@ -105,7 +105,7 @@ fadeInTopSections.forEach((fadeInTopSection) => {
         y: -100,
         scrollTrigger: {
             trigger: fadeInTopSection,
-            start: "top 90%",
+            start: "top 95%",
             scrub: true,
             end: "bottom 25%",
             markers: false,
@@ -115,12 +115,12 @@ fadeInTopSections.forEach((fadeInTopSection) => {
 
 
 gsap.from("#manchu-map", {
-    scale: 1.5,
+    scale: 2,
     scrollTrigger: {
         trigger: "#manchu-map",
-        start: "top 90%",
+        start: "top 95%",
         scrub: true,
-        end: "bottom 25%",
+        end: "bottom 35%",
         markers: false,
     },
 })
