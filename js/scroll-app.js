@@ -1,6 +1,20 @@
 // console.log("test");
 
-// gsap.registerPlugin(ScrollTrigger);
+
+gsap.registerPlugin(ScrollTrigger);
+
+// gsap.from(".leaders", {
+//     opacity: 0, 
+//     duration: 2,
+//     scrollTrigger: {
+//         trigger: "#aboutLeaders",
+//         start: "top 80%",
+//         end: "top 30%",
+//         scrub: true,
+//         toggleActions: "restart none none none",
+//         marker: true
+//     }
+// });
 
 // const tl = gsap.timeline({
 //     scrollTrigger: {
@@ -33,31 +47,80 @@
 //     markers: true,
 //   });
 
-// gsap.from("#manchu-map", {
-//     scale: 1.2, 
-//     duration: 2,
-//     scrollTrigger: {
-//         trigger: "#manchu-map",
-//         start: "top 80%",
-//         end: "top 30%",
-//         scrub: true,
-//         toggleActions: "restart none none none",
-//         marker: true
-//     }
-// });
 
 
 
-// var sections = gsap.utils.toArray(".scroll-p");
-// sections.forEach((section) => {
-//     gsap.from(section, {
-//         opacity: 0,
-//         scrollTrigger: {
-//             trigger: section,
-//             start: "top 75%",
-//             scrub: true,
-//             end: "bottom 25%",
-//             markers: false,
-//         },
-//     });
-// });
+
+var fadeInSections = gsap.utils.toArray(".fadeIn");
+fadeInSections.forEach((fadeInSection) => {
+    gsap.from(fadeInSection, {
+        opacity: 0,
+        scrollTrigger: {
+            trigger: fadeInSection,
+            start: "top 90%",
+            scrub: true,
+            end: "bottom 25%",
+            markers: false,
+        },
+    });
+});
+
+// FadeInRight
+var fadeInRightSections = gsap.utils.toArray(".fadeInRight");
+fadeInRightSections.forEach((fadeInRightSection) => {
+    gsap.from(fadeInRightSection, {
+        opacity: 0,
+        x: 100,
+        scrollTrigger: {
+            trigger: fadeInRightSection,
+            start: "top 90%",
+            scrub: true,
+            end: "bottom 25%",
+            markers: false,
+        },
+    });
+});
+
+// FadeInLeft
+var fadeInLeftSections = gsap.utils.toArray(".fadeInLeft");
+fadeInLeftSections.forEach((fadeInLeftSection) => {
+    gsap.from(fadeInLeftSection, {
+        opacity: 0,
+        x: -100,
+        scrollTrigger: {
+            trigger: fadeInLeftSection,
+            start: "top 90%",
+            scrub: true,
+            end: "bottom 25%",
+            markers: false,
+        },
+    });
+});
+
+// FadeInLeft
+var fadeInTopSections = gsap.utils.toArray(".fadeInTop");
+fadeInTopSections.forEach((fadeInTopSection) => {
+    gsap.from(fadeInTopSection, {
+        opacity: 0,
+        y: -100,
+        scrollTrigger: {
+            trigger: fadeInTopSection,
+            start: "top 90%",
+            scrub: true,
+            end: "bottom 25%",
+            markers: false,
+        },
+    });
+});
+
+
+gsap.from("#manchu-map", {
+    scale: 1.5,
+    scrollTrigger: {
+        trigger: "#manchu-map",
+        start: "top 90%",
+        scrub: true,
+        end: "bottom 25%",
+        markers: false,
+    },
+})
