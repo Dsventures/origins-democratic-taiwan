@@ -223,6 +223,9 @@ section {
 }
 
 @media (min-width: 1px) and (max-width: 767px) {
+
+    .story-points img {margin: 0 auto;}
+    .story-points p { padding: 0 50px;}
     
     .sections {
         width: 100%;
