@@ -37,6 +37,7 @@ var fadeInSections = gsap.utils.toArray(".fadeIn");
 fadeInSections.forEach((fadeInSection) => {
     gsap.from(fadeInSection, {
         opacity: 0,
+        delay: 1,
         scrollTrigger: {
             trigger: fadeInSection,
             start: "top 95%",
