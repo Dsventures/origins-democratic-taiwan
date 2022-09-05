@@ -3,34 +3,16 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-// gsap.from(".leaders", {
-//     opacity: 0, 
-//     duration: 2,
-//     scrollTrigger: {
-//         trigger: "#aboutLeaders",
-//         start: "top 80%",
-//         end: "top 30%",
-//         scrub: true,
-//         toggleActions: "restart none none none",
-//         marker: true
-//     }
-// });
+gsap.from(".cover-intro", { opacity: 0, duration: 1 }, "one")
+gsap.from(".displayMob", { opacity: 0, duration: 1 }, "one")
 
-// const tl = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: "#mapsections",
-//         markers: true,
-//         start: "top 30%",
-//         end: "+=100%",
-//         scrub: 1,
-//         pin: true,
-//         pinSpacing: true,
-//         toggleClass: { targets: "#manchu-map", className: "is-active" },
-//         anticipatePin: 1
-//     }
-// })
+// const tl = gsap.timeline()
 
-// tl.from("#manchu-map", {opacity: 0, scale:1.2, duration: 1})
+// tl.from(".cover-intro h1", {opacity: 0, x:-50, duration: 1}, "one")
+// tl.from(".cover-intro p", {opacity: 0, duration: 1}, "two")
+// tl.from(".displayMob", { opacity: 0, duration: 3 }, "three")
+
+// tl.from(".cover-intro object", {opacity: 0, duration: 3}, "three")
 
 // var tl5 = gsap.timeline();
 // // tl5.from( "#manchu-map", { opacity: 0, scale: 1.2, }, "zero" )
