@@ -209,7 +209,7 @@ section {
     justify-content: center;    margin: 0 auto;
 }
 
-.fullwidthwithBG .bodycopy { color: #fff;}
+.fullwidthwithBG .bodycopy { color: #fff; text-shadow: -1px -1px 15px rgb(0 0 0);}
 
 .center-box{
     text-align: center;
@@ -248,7 +248,7 @@ section {
     { padding: 0 30px;}
 
     .fullwidthwithBG {
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .BG.secImg1{
