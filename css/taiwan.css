@@ -187,12 +187,12 @@ section {
 }
 
 .BG.secImg1{
-    background-image: url("../assets/img/story/theflight.jpg");
+    background-image: url("../assets/img/webp/theflight.webp");
     background-position: center;
 }
 
 .BG.secImg2{
-    background-image: url("../assets/img/story/army.jpg");
+    background-image: url("../assets/img/webp/army.webp");
     background-position: center;
 }
 
