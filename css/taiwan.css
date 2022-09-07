@@ -21,7 +21,7 @@ section {
 }
 
 #cover{
-    background-image: url(../assets/img/bg.png);
+    background-image: url(../assets/img/webp/bg.webp);
     width: 100%;
     margin: 0 auto 30px;
     background-size: cover;
@@ -252,7 +252,7 @@ section {
     }
 
     .BG.secImg1{
-        background-image: url(../assets/img/story/theflight.jpg);
+        background-image: url(../assets/img/webp/theflight.webp);
         background-position: 30% bottom;
         background-size: cover;
         background-repeat: no-repeat;
