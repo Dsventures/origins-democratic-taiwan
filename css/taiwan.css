@@ -21,7 +21,7 @@ section {
 }
 
 #cover{
-    background-image: url(../assets/img/webp/bg.webp);
+    background-image: url(../assets/img/bg.png);
     width: 100%;
     margin: 0 auto 30px;
     background-size: cover;
@@ -187,12 +187,12 @@ section {
 }
 
 .BG.secImg1{
-    background-image: url("../assets/img/webp/theflight.webp");
+    background-image: url("../assets/img/story/theflight.jpg");
     background-position: center;
 }
 
 .BG.secImg2{
-    background-image: url("../assets/img/webp/army.webp");
+    background-image: url("../assets/img/story/army.jpg");
     background-position: center;
 }
 
@@ -252,7 +252,7 @@ section {
     }
 
     .BG.secImg1{
-        background-image: url(../assets/img/webp/theflight.webp);
+        background-image: url(../assets/img/story/theflight.jpg);
         background-position: 30% bottom;
         background-size: cover;
         background-repeat: no-repeat;
