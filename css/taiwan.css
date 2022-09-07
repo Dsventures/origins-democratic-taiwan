@@ -228,6 +228,11 @@ section {
         width: 90%;
     }
 
+    .cover-intro { margin-top: 100px; }
+
+    .cover-intro h1 { margin-bottom: 50px; }
+    .cover-intro p { text-align: left; margin-bottom: 50px; }
+
     .story-points img {margin: 0 auto;}
     .story-points p { padding: 0 50px;}
     #themarshall .story-points img {margin-bottom: 50px;}
