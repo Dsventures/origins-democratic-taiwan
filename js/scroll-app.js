@@ -1,35 +1,10 @@
-// console.log("test");
+
 
 
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".cover-intro", { opacity: 0, duration: 1 }, "one")
 gsap.from(".displayMob", { opacity: 0, duration: 1 }, "one")
-
-// const tl = gsap.timeline()
-
-// tl.from(".cover-intro h1", {opacity: 0, x:-50, duration: 1}, "one")
-// tl.from(".cover-intro p", {opacity: 0, duration: 1}, "two")
-// tl.from(".displayMob", { opacity: 0, duration: 3 }, "three")
-
-// tl.from(".cover-intro object", {opacity: 0, duration: 3}, "three")
-
-// var tl5 = gsap.timeline();
-// // tl5.from( "#manchu-map", { opacity: 0, scale: 1.2, }, "zero" )
-// // tl5.from( "#manchu-map", { opacity: 0, scale: 1.2, }, "two" )
-// var pinManchuMap = ScrollTrigger.create({
-//     animation: tl5,
-//     trigger: "#mapsections",
-//     pin: true,
-//     scrub: true,
-//     start: "top 50%",
-//     end: "+=100%",
-//     pinSpacing: true,
-//     toggleClass: { targets: "#mapsections", className: "is-active" },
-//     markers: true,
-//   });
-
-
 
 
 
