@@ -1,0 +1,202 @@
+<div class="full_wrapper">
+        <link rel="stylesheet" href="https://dsventures.github.io/origins-democratic-taiwan/css/taiwan.css"> 
+        <div class="tv9-interactives">
+            <section class="" id="cover">
+                <div class="cover-content">
+                    <div class="cover-intro">
+                        <h1>The origins of democratic Taiwan</h1>
+                        <p>Here’s a look at the unwitting turn of events that led to China being ruled by Communists that had led to the turn of events to where we are today in a potential threat of forceful occupation of the self-governed island nation</p>
+                        <object loading="lazy" type="image/svg+xml" class="displayMob" data="https://dsventures.github.io/origins-democratic-taiwan/assets/img/cover-img-mob.svg"></object>
+                    </div>
+                    <object loading="lazy" type="image/svg+xml" class="displayDesk" data="https://dsventures.github.io/origins-democratic-taiwan/assets/img/cover-img.svg"></object>
+                    <p class="authorname">News9live data team</p>
+                    <p class="publishdate">29 August, 2022</p>
+                </div>
+            </section>
+            <section class="fadeIn">
+                <p class="leadcopy">A secret mission of American operatives formed a partnership with communist army of Matsitung. The United States unwittingly played a role in China's conversion to communism.</p>
+            </section>
+            <section id="aboutLeaders">
+                <div class="leaders fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/mao-zedong.png" />
+                    <div class="leaders__name"><span>Mao Zedong</span> Founder of Chinese Communist Party</div>
+                    <p class="bodycopy">Chairman Mao zedong created people's republic in 1949 and since then the tensions between China and West have remained volatile</p>
+                </div>
+                <div class="leaders fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/kai-shek.png" />
+                    <div class="leaders__name"><span>Jiang Kai-shek</span> Founder of Democratic Taiwan</div>
+                    <p class="bodycopy">When world war ii broke out chinese forces under Chiang Kai-shek received the goodwill and financial support of allies</p>
+                </div>
+            </section>
+            <!-- <object id="manchu-map" class="" type="image/svg+xml" data="https://dsventures.github.io/origins-democratic-taiwan/assets/img/manchuria-map.svg"></object> -->
+            <!-- <object id="manchu-map" class="" type="image/svg+xml" data="assets/img/manchuria-map.svg"></object> -->
+            <img  id="manchu-map"  src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/manchuria-map.png" />
+            <section class="mapsection" id="mapsections">
+                <div class="mapsection__content" id="triggerManchuria">
+                    <p class="bodycopy fadeIn" >Japanese invasion of Manchuria was considered the first act of second world war in 1931 8 yrs before war broke out in Europe</p>
+                    <p class="bodycopy fadeIn">When the Japanese started invading China the people wanted both factions to fight as one group but Jiang Kai-shek was against it as he considered Matsitung and his cause a bigger threat.
+                    </p>
+                    <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/zhang-juliang.png" alt="">
+                    <p class="bodycopy fadeIn">When the Japanese threatened to occupy northern China, Jiang focused his army on the communists instead. General Zhang Juliang (The young marshal) was ordered to surround Mao's Strong hold in the city of yemen. Instead the marshal contacted the communist headquarters in the ancient city of xi'an.
+                    </p>
+                </div>
+            </section>
+            <section class="sections" id="themarshall">
+                <div class="story-points">
+                    <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/the-marshall.jpg" />
+                    <p class="bodycopy fadeIn">The Marshall placed Jiang under house arrest when he arrived pending a decision by the communist leader on whether to exile or execute him</p>
+                    <p class="bodycopy fadeIn">Jiang kai shek was given little choice in combining forces with Mao's communist army to fight against the invading Japanese 
+                    </p>
+                    <p class="bodycopy fadeIn">
+                        Within 6 months of this new alliance Japanese Invasion began
+                    </p>
+                </div>
+                <div class="story-points">
+                    <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/international-settlement.jpg" />
+                    <p class="bodycopy fadeIn">By the end of 1937 Japan considered China a conquered nation. Shanghai, Peking and Canton had all fallen. One corner of Shanghai remained untouched because there were European and United States settlements with status of colonies called Island Shanghai (1937 to 1941). Run by British, French, Japanese and Chinese in their individual portions. 
+                    </p>
+                </div>
+
+            </section>
+            <section class="sections fadeIn" id="spyMaster">
+                <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/the-spymaster.png" />
+                <div class="spyMaster__content">
+                    <p class="bodycopy fadeIn">Head of Jiang's Intelligence Network was an elusive figure of brutal reputation called Dai Li. He headed a department of statistics and investigation. He is supposed to have an intelligence force of 100,000 to 300,000 agents.</p>
+                    <p class="bodycopy fadeIn">This intelligence force had cracked the japanese code twice and had warned USA of an impending attack on Pearl Harbour which the war department Ignored. With this attack USA entered the Second World War. USA, now a partner of China, only recognised the government of Jiang Kai-Shek. It supported China with Weapons and equipment to make sure that Chinese remained at war with the Japanese and kept them busy.</p>
+                </div>
+            </section>
+        </div>
+        <section loading="lazy" class="fullwidthwithBG">
+            <div class="fullwidthBGContainer twoCols">
+                <p class="bodycopy fadeInTop">The Japanese blocked supply to China from Western Pacific, So America supplied it through India over the Himalayas in a mission known as Flying the Hump.</p>
+                <p class="bodycopy fadeInTop">In turn China became the Listening post for Information. US Naval Intelligence under Milton E. Miles with Nationalist Spymaster Dai Li formed the Naval Group China. A special force was trained by this group with several goals to be achieved including blowing up infrastructure to harass the Japanese to Building weather tracking stations in North China and Manchuria. Their techniques ranged from code breaking to use of carrier pigeons for covert long-distance communication.</p>
+            </div>
+            <div class="BG secImg1" loading="lazy" ></div>
+        </section>
+        <div class="tv9-interactives" id="introUSRivalLeaders">
+            <section class="sections">
+                <div class="us-rival-leaders">
+                    <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/miles.png" />
+                    <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/donovan.png" />
+                </div>
+                <p class="bodycopy fadeIn">General William “Wild Bill” Donovan created OSS (forerunner of CIA) in 1941 bringing with him to China subterfuge and Idea that could potentially destabilize its enemies. Miles and Donovan didn't get along.</p>
+                <p class="bodycopy fadeIn">Donovan in 1943 December sent a discreet message to Mao letting him know that he wanted to meet. But little did he know that Mao's spy had already penetrated OSS. Mao responded to Donovan and welcomed him to be an ally.
+                </p>
+            </section>
+        </div>
+        <section loading="lazy" class="fullwidthwithBG">
+            <div class="fullwidthBGContainer twoCols">
+                <p class="bodycopy fadeInTop">Despite all the funding and arms Jiang's army failed to make any headway atgainst the Japanese Army in 1944. This was probably because Jiang, instead of using all his resources to fight the Japanese, reserved his best troops for his fight with Mao.</p>
+            </div>
+            <div class="BG secImg2" loading="lazy" ></div>
+        </section>
+        <div class="tv9-interactives">
+            <section class="sections2" id="dixieMission">
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        Donovan realized and Roosevelt was made aware of Mao being a better ally than Jiang and that the Communist could fight the Japanese more efficiently. He put together a secret task force that could investigate communist plans, train Chinese operatives and share significant info back to washington. This group was called the dixie mission.
+                    </p>
+                    <p class="bodycopy fadeIn">The Dixie Mission consisted mainly of OSS trainers and staff, rest were members of US foregin service - Diplomats, not soldiers. Young and fluent in chinese</p>
+                </div>
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/dixie-mission.jpg" />
+                </div>
+            </section>
+            <section class="sections2" id="david-barrette" >
+                <div class="story-points fadeIn" >
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/david-barrette.png" />
+                </div>
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        Colonel David Barrett arrived with dixie mission in June 1944. He discovered a hardened group of Guerrillas adept at conducting operations behind enemy lines. The weapons and ammunition meant for Nationalist were rerouted to the communists in Yunan.
+                    </p>
+                    <p class="bodycopy fadeIn">Communists wanted 3 things from the mission. Cash to buy puppets, Weapons and ammunition and Open military and intelligence cooperation. </p>
+                </div>
+            </section>
+            <section class="sections2" id="john-service" >
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        John Service was born in China, was a missionary kid, he had good knowledge of Chinese and not just Mandarin but many dialects. He was known to effectively move through the back alleys of cities and villages and be able to pick up immese amount  of information
+                    </p>
+                    <p class="bodycopy fadeIn">John Service suggested changing from the Nationalist to the communists who would be the best bet for China's future.</p>
+                </div>
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/john-service.png" />
+                </div>
+            </section>
+            <section class="sections2" id="chuday">
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/general-chuday.png" />
+                </div>
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        In late 1944 with the D-day invasion successfully behind them and the German armies in retreat the US began focusing even more on the war with Japan, William Donovan began working with mao's  General Chuday on a daring plan designed to tip the entire balance of the war a normandy-style invasion of japanese occupied china on the beaches of shandong province
+                    </p>
+                </div>
+            </section>
+            <section class="center-box">
+                <img loading="lazy" class="fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/mao-n-2nd-command.png" alt="">
+                <p class="bodycopy fadeIn">Mao and his second in command Zhou En Lai offered to go to Washington and make a pitch during this time.
+                </p>
+            </section>
+            <section class="sections2" id="telegram">
+                <div class="story-points fadeIn">
+                    <p class="bodycopy">
+                        In November 1944 John Service composed to communicate for the dixie mission sent by coded telegram to Washington D.C.
+                    </p>
+                </div>
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/telegram.jpg" />
+                </div>
+            </section>
+            <section class="center-box">
+                <p class="bodycopy fadeIn">In 1945 Nazi Germany was collapsing under Allied onslaught. In the pacific american allies were slowly recapturing Japanese occupied territory. Power in China was shifting and hence the Dixie mission suggested in a secret message that they will have to choose a side if both  the groups (Mao Zedong and Jiang kai-shek) refuse to reconcile.</p>
+            </section>
+            <section class="sections2" id="patrick-hurley" >
+                <div class="story-points fadeIn">
+                    <p class="bodycopy">
+                        The plan to attack Shandong province was denounced by the nationalists and Patrick Hurley, New ambassador to China. Due to his interference Dixie mission was disbanded and sent home in disgrace. Mao lost the support of Americans.
+                    </p>
+                </div>
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/patrick-hurley.png" />
+                </div>
+            </section>
+            <section class="sections2" id="surrender">
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/japanese-surender.jpg" />
+                </div>
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        In 1945 Japanese signed unconditional surrender and 2nd world war ended. The civil war in China resumed .
+                    </p>
+                    <p class="bodycopy fadeIn">
+                        The Americans began supplying the nationalists with new weapons and started flying nationlist troops to strategic points raising alarm with the Communists.
+                    </p>
+                </div>
+                
+            </section>
+            <section class="center-box">
+                <p class="bodycopy fadeIn">Billions of dollars in us $  were sent to Chiang Kai-shek yet the nationalist forces collapsed before mao's armies. Corruption and fraud had bankrupted the entire country  and many of chiang's best troops defected to join the communists.</p>
+                <img loading="lazy" class="mt30 fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/kaishek-flees-china.jpg" alt="">
+                <p class="bodycopy">Jiang Kai-Shek fled Mainland China in 1949 to Join the final remnants of his army on the Island of Taiwan.</p>
+            </section>
+            <section class="sections2" id="surrender">
+                <div class="story-points fadeIn">
+                    <img loading="lazy" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/birth-of-prc.jpg" />
+                </div>
+                <div class="story-points">
+                    <p class="bodycopy fadeIn">
+                        On Oct 1st 1949, Mao Zedong declared the Birth of PRC. It was now anti-western and anti-american. Within the year China's army fought the American soldiers on the Korean Peninsula. The Dixie mission was blamed for the Loss of China.
+                    </p>
+                </div>
+            </section>
+            <section class="center-box">
+                <p class="bodycopy fadeIn">Jiang Kai-Shek led the nationalist government in Taiwan until his death in 1975. The civil war was still not over with missiles and threats still happening. With roots in the second world war it's a stalemate that lasts to this day.</p>
+                <img loading="lazy" class="mt30 fadeIn" src="https://dsventures.github.io/origins-democratic-taiwan/assets/img/story/kai-shek-end.jpg" alt="">
+            </section>
+        </div>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+        <script defer src="https://dsventures.github.io/origins-democratic-taiwan/js/scroll-app.js" ></script>
+</div>
